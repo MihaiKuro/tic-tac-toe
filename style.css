@@ -23,14 +23,25 @@ h1{
     margin: 100px calc(50% - 150px);
 }
 #restartBtn{
-    width: 200px;
-    height: 70px;
+    width: 180px;
+    height: 60px;
     font-size: 24px;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
     margin: 20px auto;
     cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
+    #restartBtn{
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        border-radius: 25px;
+        margin: 20px auto;
+        cursor: pointer;
+    }
     #cellContainer{
         width: 100px;
         margin: 70px calc(50% - 150px);
