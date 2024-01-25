@@ -1,0 +1,31 @@
+body{
+    background-color: #f5f5f5;
+    font-family: "permanent marker" , cursive;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 3px;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 200px;
+    margin: 10vh 82vh ;
+}
+#restartBtn{
+    width: 200px;
+    height: 70px;
+    font-size: 24px;
+    margin: 20px auto;
+    cursor: pointer;
+}
