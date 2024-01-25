@@ -20,7 +20,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 200px;
-    margin: 10vh 82vh ;
+    margin: 100px calc(50% - 150px);
 }
 #restartBtn{
     width: 200px;
