@@ -33,8 +33,7 @@ h1{
 @media only screen and (max-width: 600px) {
     #cellContainer{
         width: 100px;
-        margin: 100px calc(50% - 150px);
+        margin: 70px calc(50% - 150px);
     }
 }
-```
-```
+

@@ -72,6 +72,7 @@ function checkWin(){
 function restartGame(){
     options=['','','','','','','','',''];
     cells.forEach(cell=>cell.textContent='');
+    currentPlayer='X';
     statusText.textContent=`Player ${currentPlayer}'s turn`;
     gameActive=true;
 
